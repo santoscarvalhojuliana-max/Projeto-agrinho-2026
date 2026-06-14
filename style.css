@@ -1,0 +1,26 @@
+/* Central de Variáveis - Facilita a manutenção e garante consistência */
+:root {
+    --verde-agricultura: #27ae60;
+    --verde-claro: #2ecc71;
+    --marrom-solo: #8b6f47;
+    --cor-texto-escuro: #2d3436;
+    --branco-puro: #a2c18e;
+    --sombra-suave: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Reset Global - Garante que o site comece do zero em qualquer navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: var(--cor-texto-escuro);
+    line-height: 1.6;
+    background-color: var(--branco-puro);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
